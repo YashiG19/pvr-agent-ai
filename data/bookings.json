@@ -1,3 +1,10 @@
 {
-    "bookings": []
+    "bookings": [
+        {
+            "booking_id": "BK1001",
+            "customer": "yashi",
+            "movie": "Mission Impossible: The Final Reckoning",
+            "amount": 975.0
+        }
+    ]
 }

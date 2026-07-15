@@ -31,12 +31,10 @@ def notification_agent(state):
             state["offer"]["offer_name"]
         )
 
-    print("\nFinal Amount : ₹",
-          print(
-              round(
-                  state["bill"]["final_amount"], 2
-              )
-          ))
+    print(
+        f"\nFinal Amount : ₹ "
+        f"{round(state['bill']['final_amount'],2)}"
+    )
 
     state["message"] = "Booking Successful"
 
