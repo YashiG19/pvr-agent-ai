@@ -1,0 +1,67 @@
+{
+    "food": [
+        {
+            "food_id": 1,
+            "item_name": "Regular Popcorn",
+            "category": "Popcorn",
+            "price": 250,
+            "available": 1
+        },
+        {
+            "food_id": 2,
+            "item_name": "Large Popcorn",
+            "category": "Popcorn",
+            "price": 420,
+            "available": 1
+        },
+        {
+            "food_id": 3,
+            "item_name": "Cheese Popcorn",
+            "category": "Popcorn",
+            "price": 480,
+            "available": 1
+        },
+        {
+            "food_id": 4,
+            "item_name": "Coke",
+            "category": "Beverage",
+            "price": 180,
+            "available": 1
+        },
+        {
+            "food_id": 5,
+            "item_name": "Pepsi",
+            "category": "Beverage",
+            "price": 180,
+            "available": 1
+        },
+        {
+            "food_id": 6,
+            "item_name": "Nachos",
+            "category": "Snacks",
+            "price": 260,
+            "available": 1
+        },
+        {
+            "food_id": 7,
+            "item_name": "French Fries",
+            "category": "Snacks",
+            "price": 220,
+            "available": 1
+        },
+        {
+            "food_id": 8,
+            "item_name": "Combo 1",
+            "category": "Combo",
+            "price": 550,
+            "available": 1
+        },
+        {
+            "food_id": 9,
+            "item_name": "Combo 2",
+            "category": "Combo",
+            "price": 720,
+            "available": 1
+        }
+    ]
+}

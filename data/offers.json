@@ -1,0 +1,32 @@
+{
+    "offers": [
+        {
+            "offer_id": 1,
+            "offer_name": "Weekend Offer",
+            "discount_percent": 15,
+            "minimum_amount": 1000,
+            "expiry_date": "2026-12-31"
+        },
+        {
+            "offer_id": 2,
+            "offer_name": "Student Offer",
+            "discount_percent": 20,
+            "minimum_amount": 700,
+            "expiry_date": "2026-12-31"
+        },
+        {
+            "offer_id": 3,
+            "offer_name": "Credit Card Cashback",
+            "discount_percent": 10,
+            "minimum_amount": 500,
+            "expiry_date": "2026-12-31"
+        },
+        {
+            "offer_id": 4,
+            "offer_name": "First Booking",
+            "discount_percent": 25,
+            "minimum_amount": 300,
+            "expiry_date": "2026-12-31"
+        }
+    ]
+}

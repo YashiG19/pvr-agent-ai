@@ -1,0 +1,64 @@
+{
+    "movies": [
+        {
+            "movie_id": 1,
+            "title": "Mission Impossible: The Final Reckoning",
+            "language": "English",
+            "genre": "Action",
+            "duration": 170,
+            "rating": "UA",
+            "release_date": "2026-07-01",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 2,
+            "title": "Superman",
+            "language": "English",
+            "genre": "Action",
+            "duration": 145,
+            "rating": "UA",
+            "release_date": "2026-07-05",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 3,
+            "title": "Jurassic World Rebirth",
+            "language": "English",
+            "genre": "Adventure",
+            "duration": 155,
+            "rating": "UA",
+            "release_date": "2026-07-10",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 4,
+            "title": "Saiyaara",
+            "language": "Hindi",
+            "genre": "Romance",
+            "duration": 160,
+            "rating": "UA",
+            "release_date": "2026-07-11",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 5,
+            "title": "Mahavatar Narsimha",
+            "language": "Hindi",
+            "genre": "Animation",
+            "duration": 140,
+            "rating": "U",
+            "release_date": "2026-07-12",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 6,
+            "title": "The Fantastic Four",
+            "language": "English",
+            "genre": "Sci-Fi",
+            "duration": 150,
+            "rating": "UA",
+            "release_date": "2026-07-20",
+            "status": "Coming Soon"
+        }
+    ]
+}

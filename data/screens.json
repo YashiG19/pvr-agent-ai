@@ -1,0 +1,40 @@
+{
+    "screens": [
+        {
+            "screen_id": 1,
+            "theatre_id": 1,
+            "screen_name": "Screen 1",
+            "total_seats": 120
+        },
+        {
+            "screen_id": 2,
+            "theatre_id": 1,
+            "screen_name": "Screen 2",
+            "total_seats": 150
+        },
+        {
+            "screen_id": 3,
+            "theatre_id": 2,
+            "screen_name": "Screen 1",
+            "total_seats": 100
+        },
+        {
+            "screen_id": 4,
+            "theatre_id": 2,
+            "screen_name": "Screen 2",
+            "total_seats": 140
+        },
+        {
+            "screen_id": 5,
+            "theatre_id": 3,
+            "screen_name": "Screen 1",
+            "total_seats": 160
+        },
+        {
+            "screen_id": 6,
+            "theatre_id": 4,
+            "screen_name": "Screen 1",
+            "total_seats": 180
+        }
+    ]
+}

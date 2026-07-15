@@ -1,0 +1,227 @@
+{
+  "seats": [
+    {
+      "seat_id": 1,
+      "screen_id": 1,
+      "seat_number": "A1",
+      "seat_type": "Silver",
+      "price": 220,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 2,
+      "screen_id": 1,
+      "seat_number": "A2",
+      "seat_type": "Silver",
+      "price": 220,
+      "status": "Booked",
+      "booking_id": "BK1001"
+    },
+    {
+      "seat_id": 3,
+      "screen_id": 1,
+      "seat_number": "A3",
+      "seat_type": "Silver",
+      "price": 220,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 4,
+      "screen_id": 1,
+      "seat_number": "A4",
+      "seat_type": "Silver",
+      "price": 220,
+      "status": "Available",
+      "booking_id": null
+    },
+
+    {
+      "seat_id": 5,
+      "screen_id": 1,
+      "seat_number": "B1",
+      "seat_type": "Gold",
+      "price": 350,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 6,
+      "screen_id": 1,
+      "seat_number": "B2",
+      "seat_type": "Gold",
+      "price": 350,
+      "status": "Booked",
+      "booking_id": "BK1002"
+    },
+    {
+      "seat_id": 7,
+      "screen_id": 1,
+      "seat_number": "B3",
+      "seat_type": "Gold",
+      "price": 350,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 8,
+      "screen_id": 1,
+      "seat_number": "B4",
+      "seat_type": "Gold",
+      "price": 350,
+      "status": "Available",
+      "booking_id": null
+    },
+
+    {
+      "seat_id": 9,
+      "screen_id": 1,
+      "seat_number": "C1",
+      "seat_type": "Platinum",
+      "price": 500,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 10,
+      "screen_id": 1,
+      "seat_number": "C2",
+      "seat_type": "Platinum",
+      "price": 500,
+      "status": "Booked",
+      "booking_id": "BK1003"
+    },
+    {
+      "seat_id": 11,
+      "screen_id": 1,
+      "seat_number": "C3",
+      "seat_type": "Platinum",
+      "price": 500,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 12,
+      "screen_id": 1,
+      "seat_number": "C4",
+      "seat_type": "Platinum",
+      "price": 500,
+      "status": "Available",
+      "booking_id": null
+    },
+
+    {
+      "seat_id": 13,
+      "screen_id": 2,
+      "seat_number": "A1",
+      "seat_type": "Silver",
+      "price": 250,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 14,
+      "screen_id": 2,
+      "seat_number": "A2",
+      "seat_type": "Silver",
+      "price": 250,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 15,
+      "screen_id": 2,
+      "seat_number": "B1",
+      "seat_type": "Gold",
+      "price": 380,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 16,
+      "screen_id": 2,
+      "seat_number": "B2",
+      "seat_type": "Gold",
+      "price": 380,
+      "status": "Available",
+      "booking_id": null
+    },
+
+    {
+      "seat_id": 17,
+      "screen_id": 3,
+      "seat_number": "A1",
+      "seat_type": "Silver",
+      "price": 200,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 18,
+      "screen_id": 3,
+      "seat_number": "A2",
+      "seat_type": "Silver",
+      "price": 200,
+      "status": "Available",
+      "booking_id": null
+    },
+
+    {
+      "seat_id": 19,
+      "screen_id": 4,
+      "seat_number": "B1",
+      "seat_type": "Gold",
+      "price": 340,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 20,
+      "screen_id": 4,
+      "seat_number": "B2",
+      "seat_type": "Gold",
+      "price": 340,
+      "status": "Available",
+      "booking_id": null
+    },
+
+    {
+      "seat_id": 21,
+      "screen_id": 5,
+      "seat_number": "C1",
+      "seat_type": "Recliner",
+      "price": 700,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 22,
+      "screen_id": 5,
+      "seat_number": "C2",
+      "seat_type": "Recliner",
+      "price": 700,
+      "status": "Available",
+      "booking_id": null
+    },
+
+    {
+      "seat_id": 23,
+      "screen_id": 6,
+      "seat_number": "D1",
+      "seat_type": "Gold",
+      "price": 360,
+      "status": "Available",
+      "booking_id": null
+    },
+    {
+      "seat_id": 24,
+      "screen_id": 6,
+      "seat_number": "D2",
+      "seat_type": "Gold",
+      "price": 360,
+      "status": "Available",
+      "booking_id": null
+    }
+  ]
+}

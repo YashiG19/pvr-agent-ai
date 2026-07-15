@@ -1,0 +1,28 @@
+{
+    "theatres": [
+        {
+            "theatre_id": 1,
+            "theatre_name": "PVR Vegas",
+            "city": "Delhi",
+            "address": "Vegas Mall, Dwarka"
+        },
+        {
+            "theatre_id": 2,
+            "theatre_name": "PVR Logix",
+            "city": "Noida",
+            "address": "Logix City Center"
+        },
+        {
+            "theatre_id": 3,
+            "theatre_name": "INOX DLF Mall",
+            "city": "Noida",
+            "address": "DLF Mall of India"
+        },
+        {
+            "theatre_id": 4,
+            "theatre_name": "Cinepolis Gardens Galleria",
+            "city": "Noida",
+            "address": "Gardens Galleria Mall"
+        }
+    ]
+}
