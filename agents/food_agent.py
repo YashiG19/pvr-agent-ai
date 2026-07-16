@@ -4,7 +4,7 @@ def food_agent(state):
 
     food = load_json("data/food.json")
 
-    tickets = state["customer"]["tickets"]
+    tickets = len(state["seats"])
 
     recommended = []
 

@@ -57,8 +57,68 @@
             "genre": "Sci-Fi",
             "duration": 150,
             "rating": "UA",
-            "release_date": "2026-07-20",
-            "status": "Coming Soon"
+            "release_date": "2026-07-14",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 7,
+            "title": "Pushpa 3: The Rampage",
+            "language": "Hindi",
+            "genre": "Action",
+            "duration": 175,
+            "rating": "UA",
+            "release_date": "2026-07-10",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 8,
+            "title": "Singham Again",
+            "language": "Hindi",
+            "genre": "Action",
+            "duration": 155,
+            "rating": "UA",
+            "release_date": "2026-07-08",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 9,
+            "title": "Bhool Bhulaiyaa 3",
+            "language": "Hindi",
+            "genre": "Comedy/Horror",
+            "duration": 148,
+            "rating": "UA",
+            "release_date": "2026-07-12",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 10,
+            "title": "War 2",
+            "language": "Hindi",
+            "genre": "Action",
+            "duration": 160,
+            "rating": "UA",
+            "release_date": "2026-07-15",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 11,
+            "title": "Avatar 3: Fire and Ash",
+            "language": "English",
+            "genre": "Sci-Fi",
+            "duration": 180,
+            "rating": "UA",
+            "release_date": "2026-07-14",
+            "status": "Now Showing"
+        },
+        {
+            "movie_id": 12,
+            "title": "Deadpool 4",
+            "language": "English",
+            "genre": "Action/Comedy",
+            "duration": 135,
+            "rating": "A",
+            "release_date": "2026-07-16",
+            "status": "Now Showing"
         }
     ]
 }

@@ -1,3 +1,6 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 from langgraph.graph import StateGraph, START, END
 
 from state import PVRState
@@ -105,31 +108,65 @@ builder.add_edge("notification", END)
 workflow = builder.compile()
 
 # -----------------------------
-# Initial State
+# Session Loop
 # -----------------------------
 
-initial_state = {
+session = 0
 
-    "customer": {},
-    "movie": {},
-    "theatre": {},
-    "show": {},
-    "seats": [],
-    "food": [],
-    "offer": {},
-    "bill": {},
-    "booking": {},
-    "message": ""
+while True:
 
-}
+    session += 1
 
-# -----------------------------
-# Run
-# -----------------------------
+    print("\n")
+    print("🎬" * 25)
+    print(f"        PVR CINEMAS — Session #{session}")
+    print("🎬" * 25)
 
-result = workflow.invoke(initial_state)
+    # Fresh state for each session
+    initial_state = {
 
-print("\n")
-print("=" * 50)
-print(result.get("message", "Workflow Finished"))
-print("=" * 50)
+        "customer": {},
+        "movie": {},
+        "theatre": {},
+        "show": {},
+        "seats": [],
+        "food": [],
+        "offer": {},
+        "bill": {},
+        "booking": {},
+        "message": ""
+
+    }
+
+    # Run workflow
+    result = workflow.invoke(initial_state)
+
+    print("\n")
+    print("=" * 50)
+    print(result.get("message", "Workflow Finished"))
+    print("=" * 50)
+
+    # Ask for another booking
+    print("\n")
+
+    while True:
+
+        again = input(
+            "🎟️  Book Another Ticket? (yes/no): "
+        ).strip().lower()
+
+        if again in ["yes", "y"]:
+            print("\n🔄 Starting New Session...\n")
+            break
+
+        elif again in ["no", "n", "exit", "quit"]:
+            print("\n")
+            print("=" * 50)
+            print("  Thank you for visiting PVR! 🎬🍿")
+            print("  See you next time!")
+            print("=" * 50)
+            print("\n")
+            exit()
+
+        else:
+            print("Please enter 'yes' or 'no'")

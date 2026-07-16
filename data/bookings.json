@@ -5,6 +5,45 @@
             "customer": "yashi",
             "movie": "Mission Impossible: The Final Reckoning",
             "amount": 975.0
+        },
+        {
+            "booking_id": "BK1002",
+            "customer": "yashu gupta",
+            "movie": "Saiyaara",
+            "amount": 1372.5
+        },
+        {
+            "booking_id": "BK1003",
+            "customer": "John Doe",
+            "city": "Mumbai",
+            "movie": "Mission Impossible: The Final Reckoning",
+            "date": "2026-07-16",
+            "time": "10:00",
+            "screen": "Screen 1",
+            "seats": [
+                "A1",
+                "A3"
+            ],
+            "food": [
+                "Large Popcorn",
+                "Coke"
+            ],
+            "amount": 780.0
+        },
+        {
+            "booking_id": "BK1004",
+            "customer": "yashi",
+            "city": "noida",
+            "movie": "Deadpool 4",
+            "date": "2026-07-21",
+            "time": "11:00",
+            "screen": "Screen 1",
+            "seats": [
+                "H1",
+                "H2"
+            ],
+            "food": [],
+            "amount": 1110.0
         }
     ]
 }
